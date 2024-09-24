@@ -14,4 +14,4 @@ if Gem.win_platform?
   gem 'wdm', '>= 0.1.0'
 end
 
-gem 'webrick'
+gem 'webrick', '>= 1.8.2'
