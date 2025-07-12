@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'github-pages', group: :jekyll_plugins
+gem 'github-pages', '>= 228', group: :jekyll_plugins
 
 gem 'json_schemer'
 
@@ -14,4 +14,4 @@ if Gem.win_platform?
   gem 'wdm', '>= 0.1.0'
 end
 
-gem 'webrick'
+gem 'webrick', '>= 1.8.2'
